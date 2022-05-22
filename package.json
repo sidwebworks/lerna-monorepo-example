@@ -1,0 +1,11 @@
+{
+  "name": "lerna-monorepo-example",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "author": "sidwebworks",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ]
+}

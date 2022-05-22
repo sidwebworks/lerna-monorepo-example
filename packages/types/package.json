@@ -1,15 +1,18 @@
 {
-    "name": "@shlack/types",
-    "version": "0.0.1",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
-    "publishConfig": {
-      "access": "public"
-    },
-    "scripts": {
-      "build": "tsc -b ."
-    },
-    "devDependencies": {
-      "typescript": "^4.0.3"
-    }
+  "name": "@shlack/types",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc -b .",
+    "clean": "rimraf dist *.tsbuildinfo"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.0",
+    "@babel/preset-typescript": "^7.17.12",
+    "typescript": "^4.0.3"
   }
+}

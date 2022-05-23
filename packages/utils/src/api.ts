@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import Deferred from "./deferred";
 
 /**
- *
+ * a hook to do async side effects
  * @param  getData
  * @param  options
  */

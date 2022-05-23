@@ -1,6 +1,6 @@
 {
   "name": "@shlack/types",
-  "version": "1.2.2po",
+  "version": "1.2.2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "publishConfig": {

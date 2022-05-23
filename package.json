@@ -8,11 +8,20 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "prepare": "husky install"
+  },
   "devDependencies": {
+    "@commitlint/cli": "^17.0.0",
+    "@commitlint/config-conventional": "^17.0.0",
+    "@commitlint/config-lerna-scopes": "^17.0.0",
     "@typescript-eslint/eslint-plugin": "^5.25.0",
     "@typescript-eslint/parser": "^5.25.0",
+    "commitlint": "^17.0.0",
     "eslint": "^8.16.0",
+    "husky": "^7.0.0",
     "lerna": "^4.0.0",
+    "lerna-changelog": "^2.2.0",
     "rimraf": "^3.0.2",
     "scripty": "^2.1.0"
   }

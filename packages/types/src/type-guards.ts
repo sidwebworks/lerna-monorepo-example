@@ -23,8 +23,7 @@ export function isTypedArray<T>(
 /**
  * Check whether a given value is an {@link @shlack/types#ITeam}
  * @param arg - value to check
- * @beta
- *
+ * 
  * @example
  * Here's an example of how to use this guard
  * ```ts

@@ -9,7 +9,8 @@
     "packages/*"
   ],
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "changelog": "lerna publish --conventional-commits"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.0",

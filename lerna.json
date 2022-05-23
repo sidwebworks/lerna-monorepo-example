@@ -7,5 +7,11 @@
   "useWorkspaces": true,
   "nohoist": [
     "parcel-bundler"
-  ]
+  ],
+  "command": {
+    "publish": {
+      "allowBranch": "main",
+      "message": "chore(release): %s"
+    }
+  }
 }
